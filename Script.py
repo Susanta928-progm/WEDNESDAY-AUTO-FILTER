@@ -310,7 +310,9 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/ACXBOTZ_UPDATE">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a https://t.me/ACXBOTZ_UPDATE>[Mʏ Iɴғᴏ X Bᴏᴛᴢ]</a></b>"""
+    CAPTION = """<blockquote>𝗧𝗛𝗘 𝗛𝗬𝗣𝗘𝗥 - {file_name}</blockquote>
+<blockquote>𝙵𝚒𝚕𝚎 𝚂𝚒𝚣𝚎 ♻️ ➥ {file_size}</blockquote>
+<blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/ACX_NETWORK">𝗔𝗖𝗫 𝗡𝗘𝗧𝗪𝗢𝗥𝗞</a></blockquote>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
