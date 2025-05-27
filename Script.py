@@ -315,7 +315,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <blockquote>𝙿𝚘𝚠𝚎𝚛e𝚍 𝙱𝚢 ➥ <a href="https://t.me/ACX_NETWORK">𝗔𝗖𝗫 𝗡𝗘𝗧𝗪𝗢𝗥𝗞</a></blockquote>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🏷 Title: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 � Year: <a href={url}/releaseinfo>{year}</a>
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
