@@ -54,8 +54,8 @@ OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/THEHYPER_ACX')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/ACXBOTZ_UPDATE')
 
 #Force Subscription Channel (Put Same Channel Id In Both Veriables)
-AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002348758566 -1002131408527 -1002107236622')) 
-AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002348758566 -1002107236622 -1002131408527'))
+AUTH_CHANNEL = int(environ.get('AUTH_CHANNEL', '-1002107236622')) 
+AUTH_REQ_CHANNEL = int(environ.get('AUTH_REQ_CHANNEL', '-1002107236622'))
 
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002476467166')) #Verification Channel Id 
