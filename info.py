@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://files.catbox.moe/7wfmk3.mp4 https://files.catbox.moe/ffcudk.jpg https://files.catbox.moe/cwgvka.jpg https://files.catbox.moe/gx1d4z.jpg https://files.catbox.moe/ag6195.jpg')).split() 
+PICS = (environ.get('PICS', 'https://files.catbox.moe/ffcudk.jpg https://files.catbox.moe/cwgvka.jpg https://files.catbox.moe/gx1d4z.jpg https://files.catbox.moe/ag6195.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -37,7 +37,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002467015295')
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002476467166')) #Premium Subscription Log Channel Id
 reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002358359240') #Movie Request Channel Id
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002358359240') #Support Chat Id
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002189849843') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "") #MongoDB Url
@@ -48,7 +48,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'HyperXBotz_files')
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
 DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Movie_Cornerxz')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ACX_MOVIE_GROUP')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/ACX_NETWORK')
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/THEHYPER_ACX')
 UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/ACXBOTZ_UPDATE')
